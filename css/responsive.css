@@ -1,9 +1,16 @@
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 1000px) {
     #lezioni .row,
     #why .row {
         background-color: #F2F2CD;
     }
 
+    .container.grey {
+        background-color: white;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
     #lezioni .row>.left,
     #lezioni .row>.right,
     #steps .row>.left,
@@ -11,10 +18,6 @@
     #steps .row>.right {
         width: 100%;
         margin-top: 40px;
-    }
-
-    .container.grey {
-        background-color: white;
     }
 
     h1 {
