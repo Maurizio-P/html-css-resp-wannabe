@@ -65,6 +65,10 @@
         margin-top: 10px; 
     }  
 
+    #lezioni .row:first-child {
+        margin-top: 0;
+    }
+
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
