@@ -9,6 +9,10 @@
         justify-content: center;
         gap: 20px;
     }
+    
+    #lezioni .row:first-child {
+        margin-top: 0;
+    }
 
     h1 {
         width: 100%;
@@ -65,9 +69,7 @@
         margin-top: 10px; 
     }  
 
-    #lezioni .row:first-child {
-        margin-top: 0;
-    }
+    
 
     #why .row>.first,
     #why .row>.second,
